@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Fraunces:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --vp-font-family-base: "Plus Jakarta Sans", sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", monospace;
+
+  --vp-c-brand-1: #1a56a0;
+  --vp-c-brand-2: #2268c2;
+  --vp-c-brand-3: #dbeafe;
+  --vp-c-brand-soft: rgba(26, 86, 160, 0.1);
+
+  --vp-c-bg: #f9f9f7;
+  --vp-c-bg-soft: #f2f1ed;
+  --vp-c-bg-mute: #e8e6df;
+  --vp-c-divider: #dedbd2;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    135deg,
+    #1a56a0 10%,
+    #c8791a 90%
+  );
+  --vp-home-hero-image-background-image: radial-gradient(
+    ellipse at 60% 50%,
+    rgba(26, 86, 160, 0.15) 0%,
+    transparent 70%
+  );
+}
+
+.dark {
+  --vp-c-bg: #0d1117;
+  --vp-c-bg-soft: #161b22;
+  --vp-c-bg-mute: #1c2230;
+  --vp-c-divider: #2a3140;
+}
+
+.vp-doc code {
+  font-size: 0.82em;
+  padding: 0.15em 0.45em;
+  border-radius: 5px;
+  background-color: #dbeafe;  
+  color: #1e3a5f;             
+  font-weight: 500;            
+}
+
+.dark .vp-doc code {           
+  background-color: #1e3a5f;
+  color: #bfdbfe;
+}
+/* Nav */
+.VPNav {
+  backdrop-filter: blur(16px) !important;
+  background: rgba(249, 249, 247, 0.88) !important;
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+}
+.dark .VPNav {
+  background: rgba(13, 17, 23, 0.9) !important;
+}
+
+/* Logo / title */
+.VPNavBarTitle .title {
+  font-family: "Fraunces", serif !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Hero */
+.VPHero .name {
+  font-family: "Fraunces", serif !important;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+.VPHero .tagline {
+  font-weight: 300;
+  opacity: 0.72;
+}
+
+/* Content headings */
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
+  letter-spacing: -0.02em;
+}
+
+/* Feature cards */
+.VPFeature {
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 12px !important;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
+}
+.VPFeature:hover {
+  box-shadow: 0 8px 28px rgba(26, 86, 160, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Custom blocks */
+.custom-block {
+  border-radius: 10px !important;
+}
+
+/* Step numbers — use ordered list for steps */
+.vp-doc ol > li {
+  padding-left: 0.25rem;
+  line-height: 1.8;
+}
+.vp-doc ol > li + li {
+  margin-top: 0.5rem;
+}
+
+/* Status badges (inline code used as labels) */
+.vp-doc code {
+  font-size: 0.82em;
+  padding: 0.15em 0.45em;
+  border-radius: 5px;
+}
+
+/* Table */
+.vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.vp-doc th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+.vp-doc td,
+.vp-doc th {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.55rem 0.9rem;
+}
+
+/* Sidebar active */
+.VPSidebarItem.is-active > .item .link {
+  color: var(--vp-c-brand-1) !important;
+  font-weight: 600;
+}
+
+.VPButton.medium.brand {
+  background-color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.VPButton.medium.brand:hover {
+  background-color: var(--vp-c-brand-2);
+  border-color: var(--vp-c-brand-2);
+}
+
+/* Tombol sekunder (theme: alt) */
+.VPButton.medium.alt {
+  border-radius: 8px;
+  font-weight: 500;
+}
