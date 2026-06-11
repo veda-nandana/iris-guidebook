@@ -30,16 +30,29 @@ Jika satu pengguna memiliki lebih dari satu peran (misalnya Admin sekaligus Revi
 ![](/admin/tambahUser-admin.png)
 2. Isi nama lengkap, alamat email, dan pilih peran
 ![](/admin/formUser-admin.png)
+| Kolom | Keterangan |
+|-------|-----------|
+| Nama | Nama lengkap pengguna |
+| Email | Alamat email (harus unik) |
+| Password | Minimal 8 karakter |
+| Peran | Pilih salah satu dari 5 peran |
+| Program Studi | Wajib diisi jika peran adalah Pengusul, Dekan, atau Kaprodi |
+| Dosen LBT | Centang jika pengguna adalah dosen Luar Biasa Tetap
 3. Klik **Simpan**
 
 Pengguna baru akan mendapatkan email undangan (jika dikonfigurasi) atau dapat login menggunakan SSO universitas.
 
-## Mengubah Peran Pengguna
+## Mengubah Data Pengguna
 
 1. Cari nama pengguna kemudian klik **Edit User**
 ![](/admin/editUser-admin.png)
 2. Ubah peran sesuai kebutuhan
 ![](/admin/formEditUser-admin.png)
+   - Nama, email, NIDN
+   - Peran
+   - Program Studi
+   - Password baru (kosongkan jika tidak ingin mengubah password)
+   - Centang **Dosen LBT** jika pengguna adalah dosen Luar Biasa Tetap
 3. Klik **Simpan Perubahan**
 
 ::: warning Perhatian

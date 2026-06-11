@@ -40,9 +40,17 @@ export default defineConfig({
               link: "/panduan/admin/fakultas-prodi",
             },
             {
+              text: "Manajemen Dosen & Mahasiswa",
+              link: "/panduan/admin/manajemen-data",
+            },
+            {
               text: "Memantau Penelitian & PKM",
               link: "/panduan/admin/penelitian",
-            }
+            },
+            {
+              text: "Keputusan Akhir Admin",
+              link: "/panduan/admin/keputusan-akhir",
+            },
           ],
         },
       ],
@@ -66,7 +74,11 @@ export default defineConfig({
             {
               text: "Tahapan Penelitian & PKM",
               link: "/panduan/pengusul/penelitian",
-            }
+            },
+            {
+              text: "Diseminasi dan Publikasi",
+              link: "/panduan/pengusul/diseminasi-publikasi",
+            },
           ],
         },
       ],
@@ -77,8 +89,14 @@ export default defineConfig({
             { text: "Dashboard", link: "/panduan/reviewer/dashboard" },
             { text: "Menilai Proposal", link: "/panduan/reviewer/menilai" },
             { text: "Keputusan Review", link: "/panduan/reviewer/keputusan" },
-            { text: "Tahapan Penelitian", link: "/panduan/reviewer/penelitian" },
-            
+            {
+              text: "Pelaksanaan Diseminasi",
+              link: "/panduan/reviewer/diseminasi",
+            },
+            {
+              text: "Tahapan Penelitian",
+              link: "/panduan/reviewer/penelitian",
+            }
           ],
         },
       ],
