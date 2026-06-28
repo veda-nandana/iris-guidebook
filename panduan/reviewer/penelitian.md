@@ -73,9 +73,9 @@ Sistem menghitung dan menampilkan skor total secara otomatis.
 
 ---
 
-## Mengunduh Dokumen Pengusul
+## Mengunduh/View Dokumen Pengusul
 
-Di setiap tab tahapan, klik **Unduh** di samping nama file untuk mengunduh dokumen yang sudah disubmit Pengusul.
+Di setiap tab tahapan, klik **Unduh/View Dokumen** disamping nama file untuk melihat dokumen yang sudah disubmit Pengusul.
 ![](/reviewer/unduh-reviewer.png)
 ::: warning Hanya file Submitted yang bisa diunduh
 File yang masih berstatus Draft tidak bisa diakses oleh Reviewer. Hubungi Pengusul jika file belum muncul.

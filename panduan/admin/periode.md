@@ -14,7 +14,7 @@ Akses melalui **Sidebar → Periode**.
 Kolom dan Keterangan
 | Kolom | Keterangan |
 |-------|-----------|
-| Nama Periode | Contoh: "PKM dan Penelitian 2026" |
+| Nama Periode | Contoh: "2025/2026" |
 | Deskripsi | Isi deskripsi dari kegiatan (opsional) |
 | Tanggal Mulai & Berakhirnya Periode | 10/24/2025 & 07/31/2026 |
 

@@ -77,4 +77,4 @@ Tidak. Proposal hanya bisa diedit saat berstatus `revisi` atau `revisi_admin`.
 Proses revisi bisa berulang. Baca kembali pesan terbaru dari Admin/Reviewer di timeline dan perbaiki sesuai catatan yang diberikan.
 
 **Apakah data tim mahasiswa bisa diubah saat revisi?**
-Ya, Anda bisa menambah atau mengubah anggota tim selama proposal dalam status revisi.
+Ya, Anda bisa menambah atau mengubah anggota tim selama proposal dalam status revisi dan anggota mahasiswa belum terdaftar dalam kegiatan lain.

@@ -62,9 +62,9 @@ Gunakan fitur ini jika Pengusul mengisi informasi publikasi yang salah atau perl
 
 ---
 
-## Mengunduh Dokumen
+## Mengunduh/View Dokumen
 
-Di setiap tab tahapan, Admin bisa mengunduh file yang disubmit Pengusul dengan klik tombol **Unduh** di samping nama file.
+Di setiap tab tahapan, Admin bisa melihat file yang disubmit Pengusul dengan klik tombol **view/unduh** di samping nama file.
 
 ---
 

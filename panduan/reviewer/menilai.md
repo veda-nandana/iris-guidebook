@@ -22,9 +22,9 @@ Klik judul proposal untuk membuka halaman detail. Yang bisa Anda lihat tergantun
 Anda tidak bisa mengubah jenis review. Jika ada pertanyaan tentang jenis review yang ditetapkan, hubungi Admin.
 :::
 
-## Mengunduh Dokumen
+## View Dokumen
 
-Jika jenis review mengizinkan akses dokumen, klik **Unduh Dokumen** di halaman detail proposal untuk membaca isi proposal sebelum menilai.
+Jika jenis review mengizinkan akses dokumen, klik **View Dokumen** di halaman detail proposal untuk membaca isi proposal sebelum menilai.
 
 ---
 

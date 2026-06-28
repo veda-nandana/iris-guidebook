@@ -7,7 +7,7 @@ Panduan ini menjelaskan langkah-langkah lengkap untuk mengajukan proposal Peneli
 Pastikan hal-hal berikut sudah siap:
 
 - ✅ Periode pengajuan sedang **aktif** (cek kalender di dashboard)
-- ✅ Dokumen proposal sudah selesai dalam format **PDF**, **DOC**, atau **DOCX**
+- ✅ Dokumen proposal sudah selesai dalam format **PDF**.
 - ✅ Ukuran file **tidak melebihi 10 MB**
 - ✅ Data tim mahasiswa (nama, NIM, dan peran) sudah tersedia
 
@@ -66,6 +66,8 @@ Tambahkan semua anggota tim mahasiswa yang terlibat dalam proposal:
 3. Pengusul dapat klik tambah mahasiswa untuk menambah jumlah mahasiswa yang terlibat
 4. Untuk mengubah anggota mahasiswa, klik kembali cari NIM atau Nama di baris yang bersangkutan
 5. Untuk menghapus anggota mahasiswa, klik tanda 🗑️ di baris yang bersangkutan
+
+::: danger Jika mahasiswa tidak dapat digunakan atau sudah tergabung dalam kegiatan lain maka akan muncul pesan error :::
 ---
 
 

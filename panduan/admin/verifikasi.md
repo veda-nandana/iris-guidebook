@@ -24,9 +24,9 @@ Klik detail proposal (👁️) untuk melihat:
 - Dokumen yang diupload
 - Riwayat pengajuan (timeline)
 
-## Mengunduh Dokumen
+## Mengunduh/View Dokumen
 ![Unduh Proposal](/admin/unduh-admin.png)
-Klik tombol **Unduh Dokumen** untuk membuka atau mengunduh file proposal (PDF) yang diajukan Pengusul.
+Klik tombol **Unduh/View Dokumen** untuk membuka atau melihat file proposal (PDF) yang diajukan Pengusul.
 
 ---
 

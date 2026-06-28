@@ -43,7 +43,7 @@ Setiap kriteria memiliki **rubrik** — yaitu panduan deskripsi untuk setiap nil
 2. Pada bagian **Rubrik**, isi deskripsi untuk masing-masing skor, **contoh pengisian**:
    ![isi rubrik](/admin/formRubrik-admin.png)
 
-::: tip Klik salah satu rubrik untuk melihat panduan pengisian.
+::: tip Klik salah satu rubrik untuk melihat panduan pengisian atau dapat di cek pada link drive berikut: https://drive.google.com/drive/folders/1Sz5HH8DEHl8oDkzJsP7yPXOgu3Mz-8W1
 :::
 
 <details>
