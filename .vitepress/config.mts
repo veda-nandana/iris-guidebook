@@ -26,6 +26,86 @@ export default defineConfig({
     ],
 
     sidebar: {
+      "/": [
+        {
+          text: "Navigasi",
+          items: [
+            { text: "Beranda", link: "/" },
+            { text: "Alur Proposal", link: "/alur-proposal" },
+          ],
+        },
+        {
+          text: "🛡️ Panduan Admin",
+          collapsed: true,
+          items: [
+            { text: "Dashboard", link: "/panduan/admin/dashboard" },
+            { text: "Kelola Pengguna", link: "/panduan/admin/pengguna" },
+            { text: "Kelola Periode", link: "/panduan/admin/periode" },
+            { text: "Kriteria & Rubrik", link: "/panduan/admin/kriteria" },
+            { text: "Verifikasi Proposal", link: "/panduan/admin/verifikasi" },
+            {
+              text: "Kelola Fakultas & Prodi",
+              link: "/panduan/admin/fakultas-prodi",
+            },
+            {
+              text: "Manajemen Dosen & Mahasiswa",
+              link: "/panduan/admin/manajemen-data",
+            },
+            {
+              text: "Memantau Penelitian & PKM",
+              link: "/panduan/admin/penelitian",
+            },
+            {
+              text: "Keputusan Akhir Admin",
+              link: "/panduan/admin/keputusan-akhir",
+            },
+          ],
+        },
+        {
+          text: "📝 Panduan Pengusul",
+          collapsed: true,
+          items: [
+            { text: "Dashboard", link: "/panduan/pengusul/dashboard" },
+            {
+              text: "Mengajukan Proposal",
+              link: "/panduan/pengusul/mengajukan",
+            },
+            {
+              text: "Melacak Status Proposal",
+              link: "/panduan/pengusul/status",
+            },
+            {
+              text: "Revisi & Mengajukan Ulang",
+              link: "/panduan/pengusul/revisi",
+            },
+            {
+              text: "Tahapan Penelitian & PKM",
+              link: "/panduan/pengusul/penelitian",
+            },
+            {
+              text: "Diseminasi dan Publikasi",
+              link: "/panduan/pengusul/diseminasi-publikasi",
+            },
+          ],
+        },
+        {
+          text: "🔍 Panduan Reviewer",
+          collapsed: true,
+          items: [
+            { text: "Dashboard", link: "/panduan/reviewer/dashboard" },
+            { text: "Menilai Proposal", link: "/panduan/reviewer/menilai" },
+            { text: "Keputusan Review", link: "/panduan/reviewer/keputusan" },
+            {
+              text: "Pelaksanaan Diseminasi",
+              link: "/panduan/reviewer/diseminasi",
+            },
+            {
+              text: "Tahapan Penelitian",
+              link: "/panduan/reviewer/penelitian",
+            },
+          ],
+        },
+      ],
       "/panduan/admin/": [
         {
           text: "🛡️ Panduan Admin",

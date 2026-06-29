@@ -47,13 +47,15 @@
   background-color: #1e3a5f;
   color: #bfdbfe;
 }
-/* Nav */
-.VPNav {
+/* Nav — apply glass effect to the bar only, NOT .VPNav (the wrapper),
+   because backdrop-filter on .VPNav creates a containing-block that
+   traps the position:fixed VPNavScreen inside the navbar height. */
+.VPNavBar {
   backdrop-filter: blur(16px) !important;
   background: rgba(249, 249, 247, 0.88) !important;
   border-bottom: 1px solid var(--vp-c-divider) !important;
 }
-.dark .VPNav {
+.dark .VPNavBar {
   background: rgba(13, 17, 23, 0.9) !important;
 }
 
@@ -158,4 +160,14 @@ h3 {
 .VPButton.medium.alt {
   border-radius: 8px;
   font-weight: 500;
+}
+
+/* ── Mobile nav screen: slide from RIGHT ── */
+@media (max-width: 767px) {
+  .VPNavScreen {
+    left: auto !important;
+    width: 75vw !important;
+    max-width: 320px !important;
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.12);
+  }
 }
