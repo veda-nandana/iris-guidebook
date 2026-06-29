@@ -67,7 +67,10 @@ Tambahkan semua anggota tim mahasiswa yang terlibat dalam proposal:
 4. Untuk mengubah anggota mahasiswa, klik kembali cari NIM atau Nama di baris yang bersangkutan
 5. Untuk menghapus anggota mahasiswa, klik tanda 🗑️ di baris yang bersangkutan
 
-::: danger Jika mahasiswa tidak dapat digunakan atau sudah tergabung dalam kegiatan lain maka akan muncul pesan error :::
+::: danger 
+Jika mahasiswa tidak dapat digunakan atau sudah tergabung dalam kegiatan lain maka akan muncul pesan error 
+:::
+
 ---
 
 
