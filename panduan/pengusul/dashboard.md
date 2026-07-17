@@ -40,5 +40,5 @@ Jika akun Anda memiliki lebih dari satu peran, sistem akan menampilkan halaman *
 
 Jika ini pertama kali Anda menggunakan IRIS, mulailah dari sini:
 
-1. [Mengajukan Proposal Baru](/panduan/pengusul/mengajukan)
-2. [Melacak Status Proposal](/panduan/pengusul/status)
+<!-- 1. [Mengajukan Proposal Baru](/panduan/pengusul/mengajukan)
+2. [Melacak Status Proposal](/panduan/pengusul/status) -->

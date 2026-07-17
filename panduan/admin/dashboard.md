@@ -34,8 +34,8 @@ Dari sidebar, Admin dapat mengakses:
 Setelah login pertama kali, langkah yang dianjurkan:
 
 1. Pastikan data **Fakultas** dan **Program Studi** sudah lengkap → [Kelola Fakultas & Prodi](/panduan/admin/fakultas-prodi)
-2. Buat **Periode** pengajuan → [Kelola Periode](/panduan/admin/periode)
-3. Atur **Kriteria & Rubrik** penilaian → [Kriteria & Rubrik](/panduan/admin/kriteria)
+<!-- 2. Buat **Periode** pengajuan → [Kelola Periode](/panduan/admin/periode) -->
+<!-- 3. Atur **Kriteria & Rubrik** penilaian → [Kriteria & Rubrik](/panduan/admin/kriteria) -->
 4. Pastikan akun **Pengguna** sudah terdaftar dan memiliki peran yang benar → [Kelola Pengguna](/panduan/admin/pengguna)
 
 Setelah itu, sistem siap menerima pengajuan proposal dari Pengusul.

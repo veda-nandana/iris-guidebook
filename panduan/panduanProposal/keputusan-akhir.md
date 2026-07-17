@@ -127,9 +127,4 @@ Riwayat ini dapat dilihat oleh semua pihak (Admin, Pengusul, Reviewer) di halama
 
 ---
 
-## Setelah Keputusan "Diterima"
 
-Proposal yang diterima akan masuk ke fase **Pelaksanaan**. Lihat panduan selanjutnya:
-
-- [Memantau Penelitian & PKM](/panduan/admin/penelitian)
-- [Melihat Periode](/panduan/admin/periode#membuat-periode-baru)

@@ -6,9 +6,11 @@
 Akses melalui **Sidebar → Periode**.
 
 ## Membuat Periode Baru
+
 ![Tambah Periode](/admin/tambahPeriode-admin.png)
+
 1. Klik **Tambah Periode**
-![Form Periode](/admin/formPeriode-admin.png)
+   ![Form Periode](/admin/formPeriode-admin.png)
 2. Isi informasi berikut:
 
 Kolom dan Keterangan
@@ -32,7 +34,7 @@ Pengisian Periode
 3. Klik **Simpan**
 
 ::: tip Kriteria otomatis dibuat
-Saat periode baru disimpan, sistem secara otomatis membuat **kriteria penilaian default** untuk jenis proposal terkait. Anda bisa langsung menyesuaikannya di menu [Kriteria & Rubrik](/panduan/admin/kriteria).
+Saat periode baru disimpan, sistem secara otomatis membuat **kriteria penilaian default** untuk jenis proposal terkait. Anda bisa langsung menyesuaikannya di menu [Kriteria & Rubrik](/kriteria).
 :::
 
 ## Fase-Fase dalam Periode
@@ -46,7 +48,9 @@ Pengajuan Proposal  → Review Proposal → Laporan Kemajuan →  Review Laporan
 Tanggal setiap fase ditampilkan di kalender dashboard untuk semua pengguna.
 
 ## Mengubah Periode
+
 ![Ubah Periode](/admin/editPeriode-admin.png)
+
 1. Klik nama periode di daftar
 2. Edit kolom yang perlu diubah
 3. Klik **Simpan Perubahan**
@@ -61,4 +65,4 @@ Setelah semua proposal selesai diproses, periode dapat diarsipkan agar tidak mun
 
 ## Menyalin Kriteria Antar Periode
 
-Jika periode baru menggunakan kriteria yang sama dengan periode sebelumnya, Anda dapat menyalinnya langsung. Lihat cara lengkapnya di [Kriteria & Rubrik → Menyalin Kriteria](/panduan/admin/kriteria#menyalin-kriteria-dari-periode-lain).
+Jika periode baru menggunakan kriteria yang sama dengan periode sebelumnya, Anda dapat menyalinnya langsung. Lihat cara lengkapnya di [Kriteria & Rubrik → Menyalin Kriteria](/kriteria#menyalin-kriteria-dari-periode-lain).

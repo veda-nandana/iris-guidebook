@@ -72,7 +72,7 @@ Di halaman detail proposal, Anda bisa mengunduh ulang dokumen yang pernah Anda u
 
 Anda hanya perlu melakukan sesuatu ketika status proposal menunjukkan:
 
-- **`revisi_admin`** → Admin meminta perbaikan dokumen → [Cara merevisi & kirim ulang](/panduan/pengusul/revisi)
-- **`revisi`** → Reviewer meminta perbaikan isi → [Cara merevisi & kirim ulang](/panduan/pengusul/revisi)
+<!-- - **`revisi_admin`** → Admin meminta perbaikan dokumen → [Cara merevisi & kirim ulang](/panduan/pengusul/revisi) -->
+<!-- - **`revisi`** → Reviewer meminta perbaikan isi → [Cara merevisi & kirim ulang](/panduan/pengusul/revisi) -->
 
 Di semua status lain, Anda cukup menunggu proses berjalan.

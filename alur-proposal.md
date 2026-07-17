@@ -41,12 +41,6 @@ Diagram berikut melengkapi cerita di atas. Gunakan sebagai peta cepat saat ingin
 
 Untuk melihat percabangan keputusan—berkas dikembalikan, revisi, diterima, atau ditolak—beserta alur pelaksanaan setelah diterima, buka [User Flow Semua Skenario](/user-flow).
 
-::: tip Mulai dari peran Anda
-- **Pengusul:** [siapkan dan ajukan proposal](/panduan/pengusul/mengajukan), lalu [ikuti tahapan pelaksanaan](/panduan/pengusul/penelitian).
-- **Admin:** [siapkan periode dan data dasar](/panduan/admin/dashboard), lalu [verifikasi proposal](/panduan/admin/verifikasi).
-- **Reviewer:** [nilai proposal yang ditugaskan](/panduan/reviewer/menilai), lalu [nilai tahapan pelaksanaan](/panduan/reviewer/penelitian).
-:::
-
 ## Peta status yang mudah dibaca
 
 Pada tahap proposal, status menunjukkan posisi proses, bukan nilai akhir pengusul:

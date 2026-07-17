@@ -34,5 +34,5 @@ Untuk berpindah ke peran lain (jika memiliki beberapa peran), klik nama Anda di 
 
 ## Langkah Selanjutnya
 
-- [Cara menilai proposal](/panduan/reviewer/menilai)
-- [Keputusan review: Diterima, Revisi, atau Ditolak](/panduan/reviewer/keputusan)
+<!-- - [Cara menilai proposal](/panduan/reviewer/menilai)
+- [Keputusan review: Diterima, Revisi, atau Ditolak](/panduan/reviewer/keputusan) -->

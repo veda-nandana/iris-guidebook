@@ -30,7 +30,7 @@ Penilaian Diseminasi hanya bisa dilakukan jika:
 
 ### Kriteria Penilaian
 
-Rubrik lengkap dari penilaian dapat dilihat pada [Rubrik Penilaian](/panduan/reviewer/menilai#kriteria-penilaian) 
+Rubrik lengkap dari penilaian dapat dilihat pada [Rubrik Penilaian](/panduan/panduanProposal/menilai#kriteria-penilaian) 
 
 Setiap kriteria dinilai dengan skor **1 sampai 5**.
 
