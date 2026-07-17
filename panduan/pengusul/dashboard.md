@@ -1,5 +1,11 @@
 # Dashboard Pengusul
 
+## Posisi Anda dalam perjalanan program
+
+Sebagai Pengusul, Anda membawa kegiatan dari **ide** menjadi **luaran**. Urutannya: siapkan proposal → ajukan → tanggapi revisi bila ada → jalankan kegiatan yang diterima → kirim laporan dan luaran sesuai jadwal.
+
+Untuk melihat gambaran besar sebelum memakai menu, baca [Alur End-to-End & 5W1H IRIS](/alur-proposal). Halaman ini selanjutnya menjelaskan tempat Anda memantau perjalanan tersebut.
+
 Setelah login, Pengusul akan diarahkan ke halaman **Dashboard Pengusul**.
 
 ## Apa yang Ada di Dashboard

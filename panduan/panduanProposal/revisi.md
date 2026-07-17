@@ -4,7 +4,7 @@ Ada dua situasi di mana Anda diminta untuk memperbaiki proposal:
 
 | Situasi | Diminta oleh | Status yang muncul |
 |---------|--------------|--------------------|
-| Dokumen tidak lengkap / tidak valid | Admin | `revisi_admin` |
+| Dokumen tidak lengkap / tidak valid | Admin | `ditolak` |
 | Isi proposal perlu diperbaiki | Reviewer | `revisi` |
 
 Kedua situasi ini ditangani dengan cara yang hampir sama.
@@ -16,7 +16,7 @@ Kedua situasi ini ditangani dengan cara yang hampir sama.
 Sebelum memperbaiki, baca terlebih dahulu pesan dari Admin atau Reviewer:
 
 1. Buka **Sidebar → Proposal Saya → Riwayat Proposal**
-2. Klik detail pada judul proposal yang berstatus `revisi` atau `revisi_admin`
+2. Klik detail pada judul proposal yang berstatus `revisi`
 3. Gulir ke bagian **Riwayat Pengajuan (Timeline)**
 ![Riwayat Pengusul](/pengusul/timelinePengajuan-pengusul.png)
 4. Cari entri terbaru dari Admin atau Reviewer — pesan revisi ada di sana
@@ -71,7 +71,7 @@ IRIS tidak membatasi jumlah revisi. Namun perhatikan batas waktu review yang dit
 ## Pertanyaan Umum
 
 **Bisakah saya mengedit proposal yang sedang diproses (bukan dalam status revisi)?**
-Tidak. Proposal hanya bisa diedit saat berstatus `revisi` atau `revisi_admin`.
+Tidak. Proposal hanya bisa diedit saat berstatus `revisi`.
 
 **Bagaimana jika dokumen revisi saya masih ditolak lagi?**
 Proses revisi bisa berulang. Baca kembali pesan terbaru dari Admin/Reviewer di timeline dan perbaiki sesuai catatan yang diberikan.

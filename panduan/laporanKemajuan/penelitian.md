@@ -42,12 +42,12 @@ Untuk setiap tahapan (kecuali Proposal):
 | Monev | PDF | 50 MB |
 | Laporan Akhir | PDF | 50 MB |
 | Cek Plagiarisme | PDF | 50 MB |
-| Diseminasi | PDF, PPT, PPTX | 50 MB |
+| Diseminasi | PDF | 50 MB |
 | Publikasi | PDF | 50 MB |
 
-### Khusus Cek Plagiarisme
+<!-- ### Khusus Cek Plagiarisme
 
-Saat upload, Anda wajib mengisi **persentase plagiarisme** (angka 0–100) yang tertera di laporan hasil cek. Kolom ini wajib diisi.
+Saat upload, Anda wajib mengisi **persentase plagiarisme** (angka 0–100) yang tertera di laporan hasil cek. Kolom ini wajib diisi. -->
 
 ### Khusus Publikasi
 

@@ -1,3 +1,4 @@
+import { text } from "node:stream/consumers";
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
@@ -14,122 +15,66 @@ export default defineConfig({
 
     nav: [
       { text: "Beranda", link: "/" },
-      {
-        text: "Panduan",
-        items: [
-          { text: "🛡️ Admin", link: "/panduan/admin/dashboard" },
-          { text: "📝 Pengusul", link: "/panduan/pengusul/dashboard" },
-          { text: "🔍 Reviewer", link: "/panduan/reviewer/dashboard" },
-        ],
-      },
-      { text: "Alur Proposal", link: "/alur-proposal" },
+      { text: "Perkenalan IRIS", link: "/introduction" },
+      { text: "Proposal Lifecycle", link: "/user-flow" },
+      { text: "DRPM Resmi", link: "https://drpm.primakara.ac.id/" },
+      {text: "IRIS", link: "https://iris.primakara.ac.id/"},
     ],
 
     sidebar: {
       "/": [
         {
-          text: "Navigasi",
           items: [
             { text: "Beranda", link: "/" },
-            { text: "Alur Proposal", link: "/alur-proposal" },
-          ],
-        },
-        {
-          text: "🛡️ Panduan Admin",
-          collapsed: true,
-          items: [
-            { text: "Dashboard", link: "/panduan/admin/dashboard" },
-            { text: "Kelola Pengguna", link: "/panduan/admin/pengguna" },
-            { text: "Kelola Periode", link: "/panduan/admin/periode" },
-            { text: "Kriteria & Rubrik", link: "/panduan/admin/kriteria" },
-            { text: "Verifikasi Proposal", link: "/panduan/admin/verifikasi" },
+            { text: "Perkenalan IRIS", link: "/introduction" },
+            { text: "Proposal Lifecycle", link: "/alur-proposal" },
+            { text: "User Flow Role", link: "/user-flow" }, 
             {
-              text: "Kelola Fakultas & Prodi",
-              link: "/panduan/admin/fakultas-prodi",
+              text: "Admin Membuat Periode & Kriteria",
+              items: [
+                { text: "Menambah Periode", link: "/periode" },
+                { text: "Menambah Kriteria", link: "/kriteria" },
+              ],
+            },
+
+            {
+              text: "Tahap 1: Panduan Tahap Proposal",
+              items: [
+                {
+                  text: "Pengusul Mengajukan Proposal",
+                  link: "/panduan/panduanProposal/mengajukan",
+                },
+                {
+                  text: "Admin Melakukan Verifikasi",
+                  link: "/panduan/panduanPropoal/verifikasi",
+                },
+                {
+                  text: "Reviewer Menilai Proposal",
+                  link: "/panduan/panduanProposal/menilai",
+                },
+                {
+                  text: "Admin Memberikan Keputusan Akhir",
+                  link: "/panduan/panduanProposal/keputusan-akhir",
+                },
+                {
+                  text: "Reviewer Melakukan Revisi",
+                  link: "/panduan/panduanProposal/revisi",
+                },
+              ],
             },
             {
-              text: "Manajemen Dosen & Mahasiswa",
-              link: "/panduan/admin/manajemen-data",
+              text: "Tahap 2: Panduan Penelitian",
+              items: [
+                { text: "Laporan Penelitian Pengusul", link: "panduan/laporanKemajuan/penelitian" },
+                { text: "Menilai Laporan Penelitian Reviewer", link: "laporanKemajuan/reviewerMenilai"},
+              ],
             },
             {
-              text: "Memantau Penelitian & PKM",
-              link: "/panduan/admin/penelitian",
-            },
-            {
-              text: "Keputusan Akhir Admin",
-              link: "/panduan/admin/keputusan-akhir",
-            },
-          ],
-        },
-        {
-          text: "📝 Panduan Pengusul",
-          collapsed: true,
-          items: [
-            { text: "Dashboard", link: "/panduan/pengusul/dashboard" },
-            {
-              text: "Mengajukan Proposal",
-              link: "/panduan/pengusul/mengajukan",
-            },
-            {
-              text: "Melacak Status Proposal",
-              link: "/panduan/pengusul/status",
-            },
-            {
-              text: "Revisi & Mengajukan Ulang",
-              link: "/panduan/pengusul/revisi",
-            },
-            {
-              text: "Tahapan Penelitian & PKM",
-              link: "/panduan/pengusul/penelitian",
-            },
-            {
-              text: "Diseminasi dan Publikasi",
-              link: "/panduan/pengusul/diseminasi-publikasi",
-            },
-          ],
-        },
-        {
-          text: "🔍 Panduan Reviewer",
-          collapsed: true,
-          items: [
-            { text: "Dashboard", link: "/panduan/reviewer/dashboard" },
-            { text: "Menilai Proposal", link: "/panduan/reviewer/menilai" },
-            { text: "Keputusan Review", link: "/panduan/reviewer/keputusan" },
-            {
-              text: "Pelaksanaan Diseminasi",
-              link: "/panduan/reviewer/diseminasi",
-            },
-            {
-              text: "Tahapan Penelitian",
-              link: "/panduan/reviewer/penelitian",
-            },
-          ],
-        },
-      ],
-      "/panduan/admin/": [
-        {
-          text: "🛡️ Panduan Admin",
-          items: [
-            { text: "Dashboard", link: "/panduan/admin/dashboard" },
-            { text: "Kelola Pengguna", link: "/panduan/admin/pengguna" },
-            { text: "Kelola Periode", link: "/panduan/admin/periode" },
-            { text: "Kriteria & Rubrik", link: "/panduan/admin/kriteria" },
-            { text: "Verifikasi Proposal", link: "/panduan/admin/verifikasi" },
-            {
-              text: "Kelola Fakultas & Prodi",
-              link: "/panduan/admin/fakultas-prodi",
-            },
-            {
-              text: "Manajemen Dosen & Mahasiswa",
-              link: "/panduan/admin/manajemen-data",
-            },
-            {
-              text: "Memantau Penelitian & PKM",
-              link: "/panduan/admin/penelitian",
-            },
-            {
-              text: "Keputusan Akhir Admin",
-              link: "/panduan/admin/keputusan-akhir",
+              text: "Tahap 3: Diseminasi & Publikasi",
+              items: [
+                { text: "Diseminasi & Publikasi Pengusul", link: "panduan/diseminasiPublikasi/diseminasi-publikasi" },
+                { text: "Tahapan Diseminasi Reviewer", link: "panduan/diseminasiPublikasi/diseminasi"},
+              ],
             },
           ],
         },
@@ -141,7 +86,7 @@ export default defineConfig({
             { text: "Dashboard", link: "/panduan/pengusul/dashboard" },
             {
               text: "Mengajukan Proposal",
-              link: "/panduan/pengusul/mengajukan",
+              link: "/panduan/panduanProposal/mengajukan",
             },
             {
               text: "Melacak Status Proposal",
@@ -176,7 +121,7 @@ export default defineConfig({
             {
               text: "Tahapan Penelitian",
               link: "/panduan/reviewer/penelitian",
-            }
+            },
           ],
         },
       ],

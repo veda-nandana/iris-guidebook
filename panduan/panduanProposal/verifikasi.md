@@ -1,6 +1,6 @@
 # Verifikasi Proposal
-![Cek Proposal](/admin/proposal-admin.png)
 Setelah Pengusul mengajukan proposal, Admin harus memverifikasi kelengkapan dokumen sebelum proposal bisa masuk ke tahap penilaian.
+![Cek Proposal](/admin/proposal-admin.png)
 
 Akses melalui **Sidebar → Proposal** dimana ada 2 Kategori Penelitian dan Pengabdian (PKM).
 

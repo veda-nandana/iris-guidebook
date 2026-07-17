@@ -1,5 +1,11 @@
 # Dashboard Admin
 
+## Posisi Anda dalam perjalanan program
+
+Sebagai Admin, Anda menyiapkan proses sebelum pengajuan dibuka, menjaga alur proposal berjalan, lalu memantau pelaksanaan hingga luaran tercatat. Tindakan Admin memungkinkan Pengusul dan Reviewer bekerja pada tahap yang tepat.
+
+Baca [Alur End-to-End & 5W1H IRIS](/alur-proposal) terlebih dahulu untuk melihat urutan proses lengkap dan hubungan antarperan.
+
 Setelah login, Admin akan langsung diarahkan ke halaman **Dashboard Admin**.
 
 ## Dashboard Admin

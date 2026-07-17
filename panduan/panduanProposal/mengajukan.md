@@ -7,7 +7,7 @@ Panduan ini menjelaskan langkah-langkah lengkap untuk mengajukan proposal Peneli
 Pastikan hal-hal berikut sudah siap:
 
 - ✅ Periode pengajuan sedang **aktif** (cek kalender di dashboard)
-- ✅ Dokumen proposal sudah selesai dalam format **PDF**.
+- ✅ Dokumen proposal sudah selesai dalam format **PDF/Docx**.
 - ✅ Ukuran file **tidak melebihi 10 MB**
 - ✅ Data tim mahasiswa (nama, NIM, dan peran) sudah tersedia
 

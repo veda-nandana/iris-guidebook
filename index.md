@@ -3,41 +3,41 @@ layout: home
 
 hero:
   name: "IRIS Primakara University"
-  text: "Panduan Penggunaan Sistem"
-  tagline: Sistem Informasi Penelitian dan PKM Primakara University — panduan lengkap untuk Admin, Pengusul, dan Reviewer.
+  text: "Panduan Perjalanan Program"
+  tagline: "Pahami perjalanan program dari ide, proposal, penilaian, pelaksanaan, hingga luaran—lalu ikuti panduan sesuai peran Anda."
   actions:
     - theme: brand
       text: Mulai Baca Panduan
-      link: /alur-proposal
+      link: /introduction
     - theme: alt
-      text: Panduan Admin
-      link: /panduan/admin/dashboard
+      text: Mulai Buat Periode
+      link: /periode
     - theme: alt
-      text: Panduan Pengusul 
-      link: /panduan/pengusul/dashboard
-    - theme: alt
-      text: Panduan Reviewer 
-      link: /panduan/reviewer/dashboard
+      text: Mulai Ajukan Proposal
+      link: /panduan/panduanProposal/mengajukan
+    # - theme: alt
+    #   text: Panduan Reviewer
+    #   link: /panduan/reviewer/dashboard
 
 features:
-  - icon: 🛡️
+  - icon: "🛡️"
     title: Admin
-    details: Kelola periode, verifikasi dokumen proposal, tetapkan reviewer, atur kriteria penilaian, dan kelola data pengguna, fakultas, serta program studi.
-    link: /panduan/admin/dashboard
-    linkText: Baca panduan Admin
-  - icon: 📝
+    details: Menyiapkan periode, memastikan kelengkapan proposal, menugaskan reviewer, dan memantau program hingga selesai.
+    link: 
+    linkText: 
+  - icon: "📝"
     title: Pengusul
-    details: Ajukan proposal Penelitian atau PKM, pantau status pengajuan, lihat riwayat lengkap, dan kirim ulang setelah revisi.
-    link: /panduan/pengusul/dashboard
-    linkText: Baca panduan Pengusul
-  - icon: 🔍
+    details: Menyiapkan proposal, memantau status, menjalankan kegiatan, serta menyerahkan laporan dan luaran.
+    link: 
+    linkText: 
+  - icon: "🔍"
     title: Reviewer
-    details: Nilai proposal yang ditugaskan menggunakan rubrik terstruktur, berikan keputusan, dan minta revisi jika diperlukan.
-    link: /panduan/reviewer/dashboard
-    linkText: Baca panduan Reviewer
-  - icon: 🔄
-    title: Alur Proposal
-    details: Pahami setiap tahap perjalanan proposal dari pengajuan hingga keputusan akhir — lengkap dengan diagram status.
+    details: Menilai proposal dan tahapan pelaksanaan yang ditugaskan menggunakan rubrik serta catatan yang jelas.
+    link: 
+    linkText: 
+  - icon: "🔄"
+    title: Alur End-to-End
+    details: Mulai dari cerita program dan 5W1H, kemudian lihat perjalanan lengkap dari proposal sampai luaran.
     link: /alur-proposal
     linkText: Lihat alur lengkap
 ---

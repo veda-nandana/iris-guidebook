@@ -1,5 +1,11 @@
 # Dashboard Reviewer
 
+## Posisi Anda dalam perjalanan program
+
+Sebagai Reviewer, Anda berperan setelah proposal lengkap dan ketika dokumen pelaksanaan telah diserahkan. Anda membantu memastikan kualitas program melalui penilaian berbasis rubrik dan catatan yang dapat ditindaklanjuti Pengusul.
+
+Lihat [Alur End-to-End & 5W1H IRIS](/alur-proposal) untuk memahami keterkaitan tugas reviewer dengan tugas Pengusul dan Admin sebelum masuk ke langkah menu.
+
 Setelah login dan memilih peran **Reviewer**, Anda akan masuk ke halaman Dashboard Reviewer.
 
 ## Apa yang Ada di Dashboard

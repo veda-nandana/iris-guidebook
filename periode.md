@@ -1,7 +1,7 @@
 # Kelola Periode
 
-![Navigasi Periode](/admin/periode-admin.png)
 **Periode** adalah jendela waktu aktif di mana Pengusul dapat mengajukan proposal. Semua pengaturan jadwal, kriteria, dan konfigurasi laporan terikat pada periode tertentu.
+![Navigasi Periode](/admin/periode-admin.png)
 
 Akses melalui **Sidebar → Periode**.
 
