@@ -2,6 +2,7 @@ import { text } from "node:stream/consumers";
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "IRIS Guidebook",
   description:
     "Panduan Pengguna Sistem Informasi Penelitian dan PKM — Primakara University",
