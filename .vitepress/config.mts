@@ -47,7 +47,7 @@ export default defineConfig({
                 },
                 {
                   text: "Admin Melakukan Verifikasi",
-                  link: "/panduan/panduanPropoal/verifikasi",
+                  link: "/panduan/panduanProposal/verifikasi",
                 },
                 {
                   text: "Reviewer Menilai Proposal",
@@ -66,8 +66,8 @@ export default defineConfig({
             {
               text: "Tahap 2: Panduan Penelitian",
               items: [
-                { text: "Laporan Penelitian Pengusul", link: "panduan/laporanKemajuan/penelitian" },
-                { text: "Menilai Laporan Penelitian Reviewer", link: "laporanKemajuan/reviewerMenilai"},
+                { text: "Laporan Penelitian Pengusul", link: "/panduan/laporanKemajuan/penelitian" },
+                { text: "Menilai Laporan Penelitian Reviewer", link: "/panduan/laporanKemajuan/reviewerMenilai"},
               ],
             },
             {
